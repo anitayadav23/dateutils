@@ -7,17 +7,18 @@
   <version>1.0</version>
   <name>dateUtils</name>
   <url>http://maven.apache.com</url>
-<distributionManagement>
+<properties>
+  <sonar.projectKey>anitayadav23_dateutils</sonar.projectKey>
+  <sonar.organization>anitayadav23</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>6b3bded1b36f494d81c82276eae1722be4da39d0</sonar.login>
+</properties>
+      <distributionManagement>
 		<repository>
 				<id>releases</id>
 				<name>Internal Releases</name>
 				<url>https://maven.pkg.github.com/anitayadav23/dateUtils</url>
 			</repository>
-		<!--<snapshotRepository>
-			<id>snapshots</id>
-			<name>Internal Snapshots</name>
-			<url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
-		</snapshotRepository>-->
 </distributionManagement>
   <dependencies>
     <dependency>
