@@ -1,0 +1,7 @@
+stage (stage 1) 
+{steps 
+{
+ TEST
+}
+}
+}
